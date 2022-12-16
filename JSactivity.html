@@ -1,0 +1,37 @@
+<script>
+
+let fname = prompt("Please enter your first name");
+let lname = prompt("Please enter your last name");
+let address = prompt("Please enter your address");
+let age = prompt("Please enter your Age");
+
+ageint = parseInt(age);
+
+if(ageint >= 0 && ageint <= 1){
+str = "Infant";
+} 
+
+else if (ageint >= 2 && ageint <= 4){
+str = "Toddler";
+}
+
+else if (ageint >= 5 && ageint <= 12){
+str = "Teen";
+}
+
+else if (ageint >= 13 && ageint <= 19){
+str = "Adult";
+} 
+
+else if (ageint >= 40 && ageint <= 59){
+str = "Toddler";
+} 
+
+else if (ageint >= 60){
+str = "Senior Adult = ";
+
+}
+
+alert(str);
+
+</script>
